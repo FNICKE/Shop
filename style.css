@@ -22,8 +22,9 @@ body {
 .header .logo {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 1.5rem; /* Increased from 0.5rem */
 }
+
 
 .header img {
   width: 40px;
@@ -104,4 +105,18 @@ body {
   color: #fff;
   text-align: center;
   padding: 1rem;
+}
+.nav a {
+  text-decoration: none;
+  color: #fff; /* keep the text white */
+  margin-left: 20px;
+  font-weight: 500;
+  padding: 10px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.nav a:hover {
+  color: white;
+  background-color: #007BFF;
+  border-radius: 5px;
 }
